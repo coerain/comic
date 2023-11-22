@@ -1,4 +1,4 @@
-package com.example.comic;
+package com.comicBook;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,10 +6,8 @@ import org.springframework.cloud.openfeign.FeignClient;
 
 @SpringBootApplication
 @FeignClient
-public class ComicLocalApplication {
-
+public class ComicBookApplication {
     public static void main(String[] args) {
-        SpringApplication.run(ComicLocalApplication.class, args);
+        SpringApplication.run(ComicBookApplication.class,args);
     }
-
 }

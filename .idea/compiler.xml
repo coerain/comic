@@ -1,8 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="comicBook" />
+        <module name="comicMarket" />
+        <module name="comicChat" />
+      </profile>
+    </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="comic" target="17" />
+      <module name="comicBook" target="17" />
+      <module name="comicChat" target="17" />
+      <module name="comicMarket" target="17" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="comicBook" options="-parameters" />
+      <module name="comicChat" options="-parameters" />
+      <module name="comicMarket" options="-parameters" />
+    </option>
   </component>
 </project>
