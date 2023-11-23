@@ -1,10 +1,10 @@
 server:
-  port: 8237
+  port: 8235
   servlet:
     context-path: /comic
 spring:
   application:
-    name: comicBook
+    name: comicChat
   cloud:
     nacos:
       discovery:

@@ -1,4 +1,4 @@
-package com.comicBook;
+package com.comicMarket;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -9,8 +9,8 @@ import org.springframework.cloud.openfeign.FeignClient;
 @SpringBootApplication
 @EnableFeignClients
 @EnableDiscoveryClient
-public class ComicBookApplication {
+public class ComicMarketApplication {
     public static void main(String[] args) {
-        SpringApplication.run(ComicBookApplication.class,args);
+        SpringApplication.run(ComicMarketApplication.class,args);
     }
 }

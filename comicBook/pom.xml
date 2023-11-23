@@ -16,6 +16,10 @@
             <artifactId>spring-boot-starter-web</artifactId>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+        </dependency>
     </dependencies>
     <properties>
         <maven.compiler.source>17</maven.compiler.source>

@@ -10,7 +10,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>comicMarket</artifactId>
-
+    <dependencies>
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+        </dependency>
+    </dependencies>
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>

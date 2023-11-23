@@ -13,6 +13,7 @@ public class ComicBookController {
     private ComicBookService comicBookService;
     @GetMapping("get")
     public String list(){
+        comicBookService.SemTest();
         return "你不是真正的快乐"+comicBookService.name();
     }
 }
