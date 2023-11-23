@@ -1,5 +1,6 @@
 package com.comicBook.service;
 
+import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.stereotype.Service;
 
 import java.util.concurrent.Semaphore;
