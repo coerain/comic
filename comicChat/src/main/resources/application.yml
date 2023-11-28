@@ -3,6 +3,12 @@ server:
   servlet:
     context-path: /comic
 spring:
+  kafka:
+    #Kafka服务器地址
+    bootstrap-servers: 127.0.0.1:9092
+    producer:
+      #设置数据value的序列化处理类
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
   application:
     name: comicChat
   cloud:

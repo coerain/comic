@@ -3,6 +3,12 @@ server:
   servlet:
     context-path: /comic
 spring:
+  kafka:
+    #Kafka服务器地址
+    bootstrap-servers: 127.0.0.1:9092
+    consumer:
+      #设置数据value的反序列化处理类
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
   application:
     name: comicMarket
   cloud:
